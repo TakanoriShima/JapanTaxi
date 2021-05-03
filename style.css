@@ -33,6 +33,7 @@ header {
     box-sizing: border-box;
     padding: 0 47px 0 30px;
     align-content: space-between;
+    z-index: 2;
 }
 
 #headerinfo {
@@ -169,11 +170,14 @@ a {
     bottom: 0;
 }
 
-.ourmisshon-arrow  a{
-    display: flex;
+.ourmisshon-arrow a {
+    display: block;
     bottom: 0;
     right: 0;
     align-items: center;
+    height: 70%;
+    float: right;
+    margin-right: 27px;
 }
 
 .arrow-right {
@@ -221,7 +225,7 @@ a {
 
 .consept_text {
     width: 50vw;
-    height: 500px;
+    height: 456px;
     border: solid 1px #c0c0c0;
     position: absolute;
     top: 14%;
@@ -244,7 +248,14 @@ a {
 }
 
 #arrow-position {
-    right: 18px;
+    /* right: 18px; */
+    padding: 0;
+    height: 40px;
+}
+
+.arrow-btn2 {
+    padding: 0 !important;
+    height: 37px !important;
 }
 
 .services {
